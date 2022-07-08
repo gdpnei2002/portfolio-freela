@@ -1,10 +1,17 @@
+import styled from "styled-components";
+
+export const Container = styled.main`
+
+*{
+    margin-left:30%;
+}
+
 h1{
     margin-left:10%;
     padding-left: 50px;
 }
 
 p{
-    margin-left:30%;
     color: #b3bdc1;
     width: 50%;
 }
@@ -23,7 +30,6 @@ p{
     p{
     margin-left: 10%;
     width: 80%;
-
+    }
 }
-}
-
+`;

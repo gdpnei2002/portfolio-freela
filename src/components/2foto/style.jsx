@@ -1,8 +1,11 @@
+import styled from "styled-components";
+
+export const Container = styled.main`
+
 img{
     width:100%;
     transform: scaleX(-1);
 }
-
 .texto {
     position: absolute;
     color:#ffffff;
@@ -14,7 +17,6 @@ img{
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;
-    animation: escrever normal 5s steps(55)both;
 }
 
 @keyframes escrever {
@@ -23,7 +25,6 @@ img{
     }
     
 }
-
 @media (max-width: 900px) {
     .texto{
     top: 40%;
@@ -32,4 +33,4 @@ img{
     }
 }
 
-
+`;

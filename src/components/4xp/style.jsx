@@ -1,9 +1,6 @@
+import styled from "styled-components";
 
-
-
-*{
-    margin-left:30%;
-}
+export const Container = styled.main`
 
 h1{
     margin-left:10%;
@@ -11,6 +8,7 @@ h1{
 }
 
 p{
+    margin-left:30%;
     color: #b3bdc1;
     width: 50%;
 }
@@ -29,7 +27,7 @@ p{
     p{
     margin-left: 10%;
     width: 80%;
-
+    }
 }
-}
+`;
 

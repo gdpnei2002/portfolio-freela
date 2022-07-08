@@ -1,8 +1,8 @@
-import "./style.css";
+import { Container } from "./style";
 
  function Xp(){
     return(
-         <>
+         <Container>
         <hr />
             <h1 id="xp">Experiências:</h1>
            <p  className="titulo">
@@ -19,6 +19,6 @@ import "./style.css";
             Experiência em uma startup da minha cidade onde criamos um sistemas de controle de vendas e atendimento para empresas locais, como assistencia médica e consultórios odontológicos. 
             </p>
             <hr />
-         </>
+         </Container>
     );
 }export default Xp;

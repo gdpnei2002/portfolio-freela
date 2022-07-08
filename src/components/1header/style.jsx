@@ -1,7 +1,11 @@
-/* position:sticky;
+import styled from "styled-components";
+
+export const Container = styled.main`
+
+position:sticky;
 overflow: hidden;
 position: fixed;
-width: 100%; */
+width: 100%; 
     
 .topnav {
     background-color: #161b22;
@@ -39,3 +43,4 @@ width: 100%; */
       font-size:13px;
     }
   }
+`;

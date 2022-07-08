@@ -1,5 +1,5 @@
 import React from "react";
-import   "./style.css";
+import { Container } from "./style";
 import Rentalx from '../../assets/rentalx.png';
 import pokedex from '../../assets/pokedex.png';
 import ignews from '../../assets/ignews.png';
@@ -16,7 +16,7 @@ import embreve from '../../assets/embreve.png';
 
 function Projetos(){
     return(
-         <>
+         <Container>
           <hr />
                 <h1 id="pro">Projetos: </h1>
                 <p className="p1">Links para github:</p> 
@@ -60,6 +60,6 @@ function Projetos(){
                 Sempre trabalhando em novos projetos ... <br />Aprendendo atualmente: Next, Node e Angular</p></a>
            </div>
            <hr />
-         </>
+         </Container>
     );
 }export default Projetos;

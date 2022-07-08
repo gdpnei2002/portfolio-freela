@@ -1,3 +1,11 @@
+import styled from "styled-components";
+
+export const Container = styled.main`
+
+display: grid;
+grid-template-columns: auto auto;
+padding: 50px;
+
 p{
     color: #b3bdc1;
     width: 80%;
@@ -25,7 +33,6 @@ img{
 
 .skills{
     margin-left:13%;
-
 }
 
 .curriculo{
@@ -58,3 +65,5 @@ button{
         margin-left: 10%;
     }
 }
+
+`;

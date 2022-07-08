@@ -1,13 +1,13 @@
-import "./style.css";
+import { Container } from "./style";
 import perfil from '../../assets/perfilrosto.jpeg';
 
 function About(){
     return(
-         <>
+        <Container>
             <img id="sobre" src={perfil} alt="" />
             <div>
             <h1>Sobre mim</h1>
-                <p  className="">
+                <p className="p">
                     Meu nome é José Neilson, graduado no curso de Analise e desenvolvimento de sistemas na faculdade,
                     busco oportunidade para aplicar os meus conhecimento e adquirir experiência nas áreas de desenvolvimento de software e web.
                     <br /><br />
@@ -21,7 +21,7 @@ function About(){
                     <p className="skills">Node.JS, API's, Docker, Laravel, My SQL.</p>
                 <a target="_blank"  href="https://drive.google.com/file/d/1631ZQ6xdGRponXct4cKfZ_sgO7ps6iEt/view?usp=sharing" rel="noreferrer"><button className="curriculo">Currículo</button></a>
             </div>
-         </>
+        </Container>
     );
 }
 

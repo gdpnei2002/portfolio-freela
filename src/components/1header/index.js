@@ -1,9 +1,9 @@
-import "./style.css";
+import { Container } from "./style";
 import React from 'react';
 
  function Header(){
     return(
-       <>
+       <Container>
              <div className="App">
                 <header className="App-header">
                     <div className="App">
@@ -18,7 +18,7 @@ import React from 'react';
                 </header>
              </div>
              <hr />
-        </>
+        </Container>
     );
 }
 export default Header;

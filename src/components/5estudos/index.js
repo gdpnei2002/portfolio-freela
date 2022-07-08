@@ -1,8 +1,8 @@
-import   "./style.css";
+import { Container } from "./style";
 
 function Estu(){
     return(
-         <>
+         <Container>
            <h1 id="es">Estudos:</h1>
             <p  className="titulo">
                 Curso da Rocketseat 
@@ -29,7 +29,7 @@ function Estu(){
             <p  className="detalhes">
             A graduação me proporcionou várias experiêcias na área, criando uma network com profissionais atuantes no mercado, assim, fazendo com que eu tenha conseguido meus primeiros serviços de freelacer.
             </p>
-         </>
+         </Container>
     );
 }
 export default Estu;
