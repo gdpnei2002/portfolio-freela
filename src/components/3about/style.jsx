@@ -35,27 +35,6 @@ img{
     margin-left:13%;
 }
 
-.curriculo{
-   border: solid;
-   border-radius: 5px;
-   background-color: #0d1117;
-   border-color: #1a79e5;
-   border-width: 5px;
-   color: white;
-   font-size: 1.8rem;
-   margin-left:10%;
-}
-
-button{
-    cursor: pointer;
-}
-
-.curriculo:hover{
-    color: #9a9e9e;
-    transition: 1s;
-}
-
-
 @media (max-width: 800px) {
     display: grid;
     grid-template-columns: auto;
