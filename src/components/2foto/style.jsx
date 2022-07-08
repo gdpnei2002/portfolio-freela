@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-
 img{
     width:100%;
     transform: scaleX(-1);
@@ -17,8 +16,8 @@ img{
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;
+    animation: escrever normal 5s steps(55)both;
 }
-
 @keyframes escrever {
     100%{
         max-width: 100%;
@@ -32,5 +31,4 @@ img{
     font-size: 1.25rem;
     }
 }
-
 `;
