@@ -18,7 +18,9 @@ function About(){
                 </p>
                 <h1 id="skills">Skills:</h1>
                 <p  className="titulo">Front-End:</p>
-                    <p className="skills">HTML5, CSS3, JS, REACT.JS, NEXT.JS, STYLED COMPONENTS, SASS, CHAKRA UI.</p>
+                    <p className="skills">HTML5, CSS3, JS, React.JS, Next.JS e React Native</p>
+                <p  className="titulo">Estilizações:</p>
+                    <p className="skills">STYLED COMPONENTS, SASS, CHAKRA UI.</p>
                 <p  className="titulo">Back-End:</p>
                     <p className="skills">Node.JS, Docker, API's, My SQL, Laravel.</p>
             </div>
