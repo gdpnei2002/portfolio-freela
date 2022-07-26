@@ -7,7 +7,6 @@ import ssaude from '../../assets/ssaude.jpeg';
 import emkt from '../../assets/emkt.png';
 import embreve from '../../assets/embreve.png';
 import disc from '../../assets/testdisc.png'
-import faetton from '../../assets/faetton.png'
 
 function Projetos(){
     return(
