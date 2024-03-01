@@ -1,16 +1,18 @@
 import { Container } from "./style";
-import React from 'react';
 
- function Header(){
+
+export function Header(){
     return(
-       <Container>
+        <Container>
              <div className="App">
                 <header className="App-header">
                     <div className="App">
                     <div className="topnav">
                         <a href="#inicio">Inicio</a>
+                        {/* <a href="#sobre">Sobre</a> */}
                         <a href="#xp">Experiência</a>
                         <a href="#es">Estudos</a>
+                        {/* <a href="#skills">Skills</a> */}
                         <a href="#pro">Projetos</a>
                         <a href="#con">Contatos</a>
                     </div>
@@ -18,7 +20,6 @@ import React from 'react';
                 </header>
              </div>
              <hr />
-        </Container>
+         </Container>
     );
 }
-export default Header;

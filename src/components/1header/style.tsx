@@ -1,19 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
+  position: sticky;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
 
-position:sticky;
-overflow: hidden;
-position: fixed;
-width: 100%; 
-    
-.topnav {
+  .topnav {
     background-color: #161b22;
     overflow: hidden;
-    position:sticky;
-
+    position: sticky;
   }
-  
+
   .topnav a {
     float: left;
     display: block;
@@ -22,25 +20,22 @@ width: 100%;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family:Arial, Helvetica, sans-serif;
   }
-  
+
   .topnav a:hover {
     color: #9a9e9e;
   }
-  
-  
+
   .topnav .icon {
     display: none;
   }
-  
+
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) 
-    {
+    .topnav a:not(:first-child) {
       display: flex;
     }
     .topnav a {
-      font-size:13px;
+      font-size: 13px;
     }
   }
 `;

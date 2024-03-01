@@ -5,7 +5,7 @@ import whatsapp from '../../assets/whatsapp.png';
 import github from '../../assets/github.png';
 
 
-function Contato(){
+export function Contato(){
     return(
         <Container>
             <h1 id="con">Contatos:</h1> <br />
@@ -18,4 +18,4 @@ function Contato(){
            
         </Container>
     );
-}export default Contato;
+}

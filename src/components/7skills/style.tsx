@@ -2,9 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.main`
 
-*{
-    margin-left:30%;
-}
+
 
 h1{
     margin-left:10%;
@@ -12,24 +10,33 @@ h1{
 }
 
 p{
-    color: #b3bdc1;
+    margin-left:30%;
     width: 50%;
-}
-
-.titulo{
     color :#1a79e5;
     font-size: 2.3rem;
 }
 
-.tempo{
-    color :white;
-    font-size: 1.3rem;
+img{
+    height: 200px;   
+    margin: 20px; 
+    margin-left:10%;
+
 }
 
-@media (max-width: 600px) {
-    p{
-    margin-left: 10%;
-    width: 80%;
-    }
+h2 :hover{
+    background-color:white;
+    transition: 1.5s;
+    border-radius: 3%;
 }
+
+
+
+
+@media (max-width: 600px) {
+    .no{
+        height:50px;
+    }
+  
+}
+
 `;
