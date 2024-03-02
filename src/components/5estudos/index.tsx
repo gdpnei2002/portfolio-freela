@@ -14,7 +14,7 @@ export function Estu(){
                 Curso online
             </p>
             <p  className="detalhes">
-                Na Rocketseat aprendo a construção de aplicações em Next.js, com varias estilizações como styled components, SASS, CHAKRA, integrações de api e etc. <br /><br />
+                Na Rocketseat aprendo a construção de aplicações com as tecnologias mais quentes do mercado e  as estilizações mais completas.<br /><br />
                 Já no back end, temos aulas desde a criação de API's até de sistemas mais complexos em Node.js com ambiente Docker.<br /><br />
             </p>
             <p  className="titulo">
@@ -27,8 +27,8 @@ export function Estu(){
                 Faculdade
             </p>
             <p  className="detalhes">
-            Hoje graduado, vejo que a faculdade me proporcionou várias experiências na área, criando uma network com profissionais atuantes no mercado, assim fazendo com que eu tenha conseguido meus primeiros serviços de freelance.
-            </p>
+                Hoje graduado, vejo que a faculdade me proporcionou várias experiências na área, criando uma network com profissionais atuantes no mercado, assim fazendo com que eu tenha conseguido meus primeiros serviços de freelance.
+            </p> <br /> <br />
         </Container>
     );
 }
