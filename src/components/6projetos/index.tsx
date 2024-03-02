@@ -1,16 +1,10 @@
 import React, { useState } from "react";
 import Card from "./cards";
-import Rentalx from "../../assets/rentalx.png";
-import pokedex from "../../assets/pokedex.png";
-import ignews from "../../assets/ignews.png";
-import dtmoney from "../../assets/dtmoney.png";
 import julia from "../../assets/julia.png";
 import acclanding from "../../assets/acclanding.png";
 import gira from "../../assets/gira.png";
 import ssaude from "../../assets/ssaude.jpeg";
-import dashgo from "../../assets/dashgo.png";
 import emkt from "../../assets/emkt.png";
-import mycardinho from "../../assets/mycardinho.png";
 import embreve from "../../assets/embreve.png";
 import disc from "../../assets/testdisc.png";
 import vocepolicia from "../../assets/vocenapolicia.png";
