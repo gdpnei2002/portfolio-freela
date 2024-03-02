@@ -50,10 +50,10 @@ export function Projetos() {
     {
       image: disc,
       title: "Teste de perfil DISC",
-      text: "O link conduzirá à página da Psicodanii, na qual o teste estará incorporado, permitindo a consulta direta dos resultados com o à própria psicóloga. O formulário foi desenvolvido em React.js, utilizando duas bibliotecas.",
+      text: "O link conduzirá à página da Psicodanii, na qual o teste estará incorporado, permitindo a consulta direta dos resultados com o à própria psicóloga. O formulário foi desenvolvido em React.js, utilizando duas bibliotecas. E o sistema de gerenciamento em Next.",
       link: "https://psicodaniiconsultoriaonline.com/",
       techs: ["React"],
-      tags: ["React"],
+      tags: ["Sistema", "React"],
     },
     {
       image: cerbrum,
@@ -66,7 +66,7 @@ export function Projetos() {
     {
       image: vocepolicia,
       title: "Você na polícia",
-      text: "rata-se de uma landing page com o propósito de promover um curso direcionado a concursos públicos para a Polícia Militar, disponível na plataforma Hotmart. Este projeto foi desenvolvido utilizando React",
+      text: "Trata-se de uma landing page com o propósito de promover um curso direcionado a concursos públicos para a Polícia Militar, disponível na plataforma Hotmart. Este projeto foi desenvolvido utilizando React.",
       link: "https://www.vocenapolicia.com.br/",
       techs: ["React"],
       tags: ["Landing Page", "React"],
@@ -98,7 +98,7 @@ export function Projetos() {
     {
       image: embreve,
       title: "Em breve",
-      text: "Sempre trabalhando em novos projetos ... Aprendendo atualmente: Next, Node e Angular",
+      text: "Sempre trabalhando em novos projetos ... Aprendendo atualmente: Next, Node e Angular.",
       link: "",
       techs: [""],
       tags: ["Em Breve"],

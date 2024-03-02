@@ -25,13 +25,6 @@ export function About() {
         </p>
         <br />
         <p>
-          Ao longo da minha carreira, tive a honra de colaborar com empresas de
-          renome de forma Freelancer, sendo elas DarwinSoftware -&gt; jadlog,
-          Genesi -&gt; System Saúde e a empresa chamada Cerbrum, referência em
-          minha cidade.
-        </p>
-        <br />
-        <p>
           {" "}
           Meu comprometimento com a excelência técnica, aliado à minha paixão
           pela inovação, me capacita a enfrentar desafios com confiança e
