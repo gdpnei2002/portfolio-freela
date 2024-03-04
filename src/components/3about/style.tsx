@@ -8,7 +8,6 @@ export const Container = styled.main`
   margin-right: 10%;
 
   p {
-    color: #b3bdc1;
     width: 80%;
     margin-left: 10%;
     a {
@@ -74,7 +73,6 @@ export const Container = styled.main`
     margin-left: 0%;
 
     p {
-      color: #b3bdc1;
       width: 100%;
       margin-left: 0%;
     }

@@ -10,13 +10,13 @@ interface CardProps {
   tags: string[];
 }
 
-const CardContainer = styled.div`
+const CardContainer = styled.main`
   border-radius: 4px;
   padding: 16px;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
-  background-color: #1e2735;
+  background-color: #ebebeb;
   border-radius: 4%;
   margin: 2%;
 
@@ -30,8 +30,8 @@ const CardContainer = styled.div`
 
 const CardImage = styled.img`
   width: 100%;
-  height: 300px;
   object-fit: cover;
+  max-height: 341px;
   margin-right: 16px;
   border-radius: 4%;
 `;
@@ -43,7 +43,7 @@ const CardContent = styled.div`
 const CardText = styled.p`
   margin-top: 8px;
   margin-bottom: 8px;
-  color: #b3bdc1;
+
   &:hover {
     margin-bottom: 8px;
     color: white;

@@ -26,6 +26,6 @@ export const CustomSelect = styled.select`
   border-radius: 5px;
   border: 1px solid #ccc;
 
-  background-color: #0d1117;
-  color: white;
+  background-color: #ebebeb;
+  color: black;
 `;

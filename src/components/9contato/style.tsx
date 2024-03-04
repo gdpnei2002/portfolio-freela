@@ -4,14 +4,11 @@ export const Container = styled.main`
 
 display: flex;
 
-p{
-    color: #b3bdc1;
-}
-
 img{
     width: 50px;
-    padding: 20px;
-    padding-top: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+    filter: grayscale(100%) invert(100%);
 }
 
 img:hover{
@@ -20,7 +17,8 @@ img:hover{
 }
 
 .gmail{
-    height: 100%;
+    height: 85%;
+    width: 12%;
 }
 
 @media (max-width: 800px) {

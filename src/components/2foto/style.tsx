@@ -7,6 +7,10 @@ img{
     transform: scaleX(-1);
 }
 
+p{
+    color: white;
+}
+
 .texto {
     position: absolute;
     color:#ffffff;
@@ -14,7 +18,7 @@ img{
     top: 40%;
     margin-left: 20%;  
     background-color: black; 
-   font-size: 2.5rem;
+    font-size: 2.5rem;
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;

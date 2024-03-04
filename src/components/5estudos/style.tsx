@@ -11,7 +11,6 @@ export const Container = styled.main`
     }
 
     p{
-        color: #b3bdc1;
         width: 50%;
     }
 
@@ -21,8 +20,13 @@ export const Container = styled.main`
     }
 
     .tempo{
-        color :white;
         font-size: 1.3rem;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .tipo{
+        padding-top:10px;
     }
 
     @media (max-width: 600px) {

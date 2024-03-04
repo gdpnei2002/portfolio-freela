@@ -9,15 +9,15 @@ header{
 }
 
 body{
-  background-color: #0d1117;
+  background-color: #f9f9f9;
 }
 
 p{
   font-size: 1.3rem;
+  color: black;
 }
 
 h1{
-  color: white;
   font-size: 2.3rem;
   padding: 15px;
   margin-left: 10%;
