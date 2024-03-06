@@ -11,6 +11,7 @@ import vocepolicia from "../../assets/vocenapolicia.png";
 import devpp from "../../assets/devpp.png";
 import cerbrum from "../../assets/cerbrum.png";
 import firstWeekThinker from "../../assets/firstWeekThinker.png";
+import steps from "../../assets/steps.png";
 import { CustomSelect, Projetcs } from "./style";
 
 export function Projetos() {
@@ -94,6 +95,14 @@ export function Projetos() {
       link: "https://devpp-reload.web.app/",
       techs: ["Angular"],
       tags: ["Landing Page", "Angular"],
+    },
+    {
+      image: steps,
+      title: "Steps",
+      text: "Projeto desenvolvido com a equipe Squad Pilots da Think AM. Onde atuei como full stack no projeto do início ao fim.  Tem como objetivo melhorar tratamentos na área da fisioterapia.",
+      link: "",
+      techs: [""],
+      tags: ["Trabalho", "Sistema", "Angular", ".Net"],
     },
     {
       image: embreve,
