@@ -11,6 +11,7 @@ import vocepolicia from "../../assets/vocenapolicia.png";
 import devpp from "../../assets/devpp.png";
 import cerbrum from "../../assets/cerbrum.png";
 import firstWeekThinker from "../../assets/firstWeekThinker.png";
+import spm from "../../assets/spm.png";
 import steps from "../../assets/steps.png";
 import { CustomSelect, Projetcs } from "./style";
 
@@ -95,6 +96,14 @@ export function Projetos() {
       link: "https://devpp-reload.web.app/",
       techs: ["Angular"],
       tags: ["Landing Page", "Angular"],
+    },
+    {
+      image: spm,
+      title: "SPM",
+      text: "É um projeto desenvolvido com objetivo de melhorar o gerenciamento da Secretaria de Políticas Públicas para Mulheres. Conta com uma equipe completa como designers, product owner e programadores do front e back end",
+      link: "https://www.facebook.com/PrefeituradeCaruaru/photos/a.549930408368020/5895878380439836/?type=3&locale=pt_BR",
+      techs: ["Angular"],
+      tags: ["Trabalho", "Sistema", "React", "Node.JS"],
     },
     {
       image: steps,
