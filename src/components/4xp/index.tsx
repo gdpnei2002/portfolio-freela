@@ -11,7 +11,7 @@ export function Xp() {
       <p className="detalhes">
         Desenvolvo landing pages de maneira independente, utilizando HTML | CSS
         | JS | REACT | ANGULAR com o propósito de ampliar a visibilidade dos
-        seus produtos ou serviços
+        seus produtos ou serviços.
         <br />
         Experiência em criação de Sistemas e Landing Pages para empresas no ramo de saúde,
         imobiliário e entre outros. <br />
