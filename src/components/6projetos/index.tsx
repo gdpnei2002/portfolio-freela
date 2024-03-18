@@ -20,7 +20,7 @@ export function Projetos() {
     {
       image: ssaude,
       title: "System Saúde",
-      text: "Ajudei a desenvolver apenas o front-end do Sistema (sistema de vendas) de uma empresa de assistência médica referência em minha cidade (Caruaru-PE). Neste projeto aprendi muito sobre JavaScript, Bootstrap, API, MVC, GIT, Laravel, Factory, Testes, Trello e SCRUM.",
+      text: "Colaborei no desenvolvimento exclusivamente do front-end do Sistema de Vendas de uma renomada empresa de assistência médica em Caruaru-PE. Ao longo deste projeto, aprimorei significativamente minhas habilidades em JavaScript, Bootstrap, API, MVC, GIT, Laravel, Factory, Testes, Trello e SCRUM.",
       link: "https://systemsaude.com.br/",
       techs: ["Laravel"],
       tags: ["Sistema", "Laravel"],

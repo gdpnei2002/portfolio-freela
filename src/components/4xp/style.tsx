@@ -21,7 +21,7 @@ export const Container = styled.main`
   }
 
   .tempo {
-    color: white;
+    color: black;
     font-size: 1.3rem;
   }
 
