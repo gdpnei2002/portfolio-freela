@@ -13,6 +13,7 @@ import cerbrum from "../../assets/cerbrum.png";
 import firstWeekThinker from "../../assets/firstWeekThinker.png";
 import spm from "../../assets/spm.png";
 import steps from "../../assets/steps.png";
+import jadlog from "../../assets/jadlog.png";
 import { CustomSelect, Projetcs } from "./style";
 
 export function Projetos() {
