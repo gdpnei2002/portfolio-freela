@@ -103,7 +103,7 @@ export function Projetos() {
       text: "É um projeto desenvolvido com objetivo de melhorar o gerenciamento da Secretaria de Políticas Públicas para Mulheres. Conta com uma equipe completa como designers, product owner e programadores do front e back end",
       link: "https://www.facebook.com/PrefeituradeCaruaru/photos/a.549930408368020/5895878380439836/?type=3&locale=pt_BR",
       techs: ["Angular"],
-      tags: ["Trabalho", "Sistema", "React", "Node.JS"],
+      tags: ["Sistema", "React", "Node.JS"],
     },
     {
       image: steps,
@@ -111,7 +111,15 @@ export function Projetos() {
       text: "Projeto desenvolvido com a equipe Squad Pilots da Think AM. Onde atuei como full stack no projeto do início ao fim.  Tem como objetivo melhorar tratamentos na área da fisioterapia.",
       link: "",
       techs: [""],
-      tags: ["Trabalho", "Sistema", "Angular", ".Net"],
+      tags: ["Sistema", "Angular", ".Net"],
+    },
+    {
+      image: jadlog,
+      title: "Jadlog",
+      text: "Projeto desenvolvido com a equipe da DarwinSoft. Onde atuei como desenvolvedor front end no projeto. Tem como objetivo calcular o frete de uma encomenda e gerar o comprovante de destino.",
+      link: "https://www.jadlog.com.br/jadlog/home",
+      techs: [""],
+      tags: ["Sistema", "React"],
     },
     {
       image: embreve,
