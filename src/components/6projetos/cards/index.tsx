@@ -10,7 +10,7 @@ interface CardProps {
   tags: string[];
 }
 
-const CardContainer = styled.main`
+const CardContainer = styled.div`
   border-radius: 4px;
   padding: 16px;
   margin-bottom: 16px;
@@ -30,8 +30,8 @@ const CardContainer = styled.main`
 
 const CardImage = styled.img`
   width: 100%;
+  height: 300px;
   object-fit: cover;
-  max-height: 341px;
   margin-right: 16px;
   border-radius: 4%;
 `;
@@ -43,7 +43,6 @@ const CardContent = styled.div`
 const CardText = styled.p`
   margin-top: 8px;
   margin-bottom: 8px;
-
   &:hover {
     margin-bottom: 8px;
     color: white;
